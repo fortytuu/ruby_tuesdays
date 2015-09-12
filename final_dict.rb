@@ -54,7 +54,7 @@ while mode != "E" # Exit option
 		puts "Please choose which association you want to practice: [0] for German-English [1] for English-German"
 		association = gets.to_i
 		words.shuffle.each do |german_word, english_word|
-			#short version of if/else condition
+			#short version of if/else condition, choose which language you want to translate
 			word, translation = association == 0 ? [german_word, english_word] : [english_word, german_word]
 			puts "\nPlease translate #{word}. (Type 'skip' to see next word.)"
 			wrong = 0
