@@ -1,3 +1,5 @@
+# This program was made by Vera
+
 words = {"Haus" => "house", "Hund" => "dog", "Katze" => "cat"}
 language = ["German", "English"]
 instruction = {"C" => "change", "A" => "add", "D" => "delete"}
