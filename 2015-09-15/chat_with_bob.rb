@@ -13,6 +13,6 @@ while true
 	elsif input.end_with?("?")
 		puts "Bob: Sure."
 	else
-		puts "Bob: Whatever."
+		puts "Bob: Whatever man."
 	end
 end
